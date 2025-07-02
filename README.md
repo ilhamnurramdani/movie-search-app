@@ -9,10 +9,6 @@ Aplikasi web sederhana untuk mencari informasi film menggunakan [OMDb API](http:
 - 📱 Desain responsif dan modern
 - 📦 Tidak menggunakan framework eksternal
 
-## 🧪 Demo Langsung
-
-> [Klik di sini untuk melihat live demo](https://ilhamnurramdani.github.io/movie-search-app/)  
-
 
 ## 🛠️ Cara Menggunakan
 
