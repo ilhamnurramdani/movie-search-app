@@ -23,7 +23,7 @@ function search(input) {
         return;
       }
       data.Search.forEach((item, index) => {
-        fetch(`http://www.omdbapi.com/?apikey=104df631&i=${item.imdbID}`)
+        fetch(`https://www.omdbapi.com/?apikey=104df631&i=${item.imdbID}`)
           .then((res) => res.json())
           .then((detail) => {
             const div = document.createElement("div");
@@ -73,4 +73,5 @@ window.addEventListener("click", (e) => {
     modal.classList.add("hidden");
   }
 });
+
 
