@@ -15,7 +15,7 @@ function search(input) {
     cardContainer.innerHTML = `<p style="color:white;">Silakan masukkan judul film.</p>`;
     return;
   }
-  fetch(`http://www.omdbapi.com/?apikey=104df631&s=${input}`)
+  fetch(`https://www.omdbapi.com/?apikey=104df631&s=${input}`)
     .then((response) => response.json())
     .then((data) => {
       if (data.Response === "False") {
@@ -73,3 +73,4 @@ window.addEventListener("click", (e) => {
     modal.classList.add("hidden");
   }
 });
+
